@@ -1,0 +1,12 @@
+{
+    "tokenizer": "minilm-v2/tokenizer.json",
+
+    "prompt": {
+        "tags":  [ "[CLS]", "[SEP]" ]
+    },
+
+    "engine": {
+        "type":  "dummy-bert",
+	"model": "minilm-v2/dummy-model-f16.bin"
+    }
+}
